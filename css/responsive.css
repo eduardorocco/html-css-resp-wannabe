@@ -7,6 +7,8 @@
 
 @media (max-width: 480px) {
 
+    /* LAYOUT */
+
     .container {
         max-width: 480px;
     }
@@ -15,6 +17,8 @@
         flex-wrap: wrap;
     }
 
+    /* LESSON SECTION */
+   
     .lessons .col {
        width: 100%;
     }
@@ -22,4 +26,20 @@
     .row .col:not(:last-child) {
         padding-bottom: 60px;
     }
+
+    /* STEPS SECTION */
+
+    .steps .col {
+        width: 100%;
+     }
+
+     /* WHY US SECTION */
+
+     .why-us .container {
+        background-color: black;
+     }
+
+     .why-us .col {
+        width: 100%;
+     }
 }
