@@ -29,6 +29,18 @@
 
     /* STEPS SECTION */
 
+    .steps {
+        margin: 0;
+    }
+
+    .why-us {
+        margin: 0;
+    }
+
+    .why-us h2 {
+        padding-top: 30px;
+    }
+
     .steps .col {
         width: 100%;
      }
