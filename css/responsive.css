@@ -7,4 +7,19 @@
 
 @media (max-width: 480px) {
 
+    .container {
+        max-width: 480px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .lessons .col {
+       width: 100%;
+    }
+
+    .row .col:not(:last-child) {
+        padding-bottom: 60px;
+    }
 }
