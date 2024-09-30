@@ -23,7 +23,7 @@
        width: 100%;
     }
 
-    .row .col:not(:last-child) {
+    .row .col {
         padding-bottom: 60px;
     }
 
